@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+
+.navbar {
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+}
+
+.mincon {
+    display: flex;
+}
+
+.mincon h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul li {
+
+    margin: 10px 10px;
+}
+
+.ul li a {
+    list-style-type: none;
+    color: white;
+}
+
+.container {
+    padding: 80px;
+    background-color: black;
+    display: flex;
+
+}
+
+.container img {
+
+    width: 700px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+.container h1 {
+    margin-top: 60px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100px;
+    color: orangered;
+    width: 460px;
+}
+
+.container h1 span {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: orangered;
+}
+
+.container button {
+    font-family: 'Rubik', sans-serif;
+
+    background-color: orangered;
+    color: white;
+    margin-left: -1260px;
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+    border-radius: 650px;
+}
+
+.container button a {
+    color: white;
+}
+
+.container button:hover {
+    background-color: white;
+}
+.container button a:hover {
+    color: orangered;
+}
+.container2 img {
+
+    width: 700px;
+}
+.container2{
+    padding: 80px;
+
+    background-color: black;
+    display: flex;
+}
+.con2{
+    font-family: 'Rubik', sans-serif;
+
+    /* margin-left:100px; */
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.con2 input{
+    font-family: 'Rubik', sans-serif;
+
+    color: black;
+    width: 500px;
+    height: 50px;
+    border-radius: 250px;
+}
+.con2 input:hover{
+    background-color: orangered;
+    color: black;
+    width: 500px;
+    height: 50px;
+    border-radius: 250px;
+}
+.con2 select{
+    font-family: 'Rubik', sans-serif;
+
+    width: 500px;
+    height: 50px;
+    border-radius: 250px;
+}
+.con2 select:hover{
+    background-color: orangered;
+
+    width: 500px;
+    height: 50px;
+    border-radius: 250px;
+}
